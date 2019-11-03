@@ -1,4 +1,7 @@
-
+.registerPage {
+    height: 800px;
+    background-color: white;
+}
 
 .form {
     padding-top: 10px;
