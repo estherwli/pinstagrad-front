@@ -6,12 +6,18 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { Route } from "react-router";
 import loginPage from "./pages/loginPage";
+import profilePage from "./pages/profilePage";
+import registerPage from "./pages/registerPage";
+import uploadPage from "./pages/uploadPage";
 
 ReactDOM.render(
 <Router>
     <Switch>
         <Route exact path="/" component={App}></Route>
         <Route exact path="/login" component={loginPage}></Route>
+        <Route exact path="/profile" component={profilePage}></Route>
+        <Route exact path="/register" component={registerPage}></Route>
+        <Route exact path="/upload" component={uploadPage}></Route>
     </Switch>
 </Router>, document.getElementById('root'));
 
