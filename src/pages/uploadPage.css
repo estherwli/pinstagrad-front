@@ -1,0 +1,46 @@
+.App{
+    align-items: center; 
+}
+.header{
+    color: #51361A; 
+    text-align: center; 
+    /* background: #F0F8FF; */
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    padding-top: 10px; 
+    flex-direction: row; 
+    /* background-image: url("https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true");  */
+}
+.form{
+    
+    /* background-color: rgb(167, 207, 241);  */
+    
+}
+.title{
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.question{
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif;
+    color: #51361A; 
+    font-size: 25px; 
+}
+
+.drop{
+    /* border: 2px solid #51361A;  */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+}
+.toggle{
+    /* align-items: center;  */
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.butt{
+    width: 25px; 
+}
