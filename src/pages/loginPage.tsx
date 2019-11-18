@@ -17,13 +17,18 @@ const App: React.FC = () => {
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"></link>
 
 
-        <img src={pinstagradLogo} alt="Pinstagrad Logo" />
+        <div className="form">
+          <a href="/"> <img src={pinstagradLogo} alt="Pinstagrad Logo" height="142px" width="142px"/></a>
+        </div>
+        <div>
+          <h1>Sign in</h1>
+        </div>
 
-        <div className="loginForm">
+        <div className="form">
           <Form onSubmit={(event) => console.log(event.target.name + 'clicked')}>
             <Form.Input className="loginTextBox" name='username' label='Username' placeholder='Enter Username' />
             <Form.Input className="loginTextBox" name='password' label='Password' type="password" placeholder='Enter Password' />
-            <Button type='submit' value='Submit' />
+            <Button className='button' color="dark gray">Submit</Button>
           </Form>
         </div>
 
