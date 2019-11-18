@@ -20,8 +20,9 @@ class myForm extends React.Component {
 
                 <div className="form">
                     <Form onSubmit={(event) => console.log(event.target.name + 'clicked')}>
+                        <Form.Input className="loginTextBox" name='email' label='Email' placeholder='Enter Email' />
                         <Form.Input className='loginTextBox' name='username' label='Username:' placeholder='Username' />
-                        <Form.Input className='loginTextBox' name='password' label='Password:' placeholder='Password' />
+                        <Form.Input className='loginTextBox' name='password' label='Password' type="password" placeholder='Password' />
                         <Button className='button' color="dark gray">Submit</Button>
                         
                     </Form>
