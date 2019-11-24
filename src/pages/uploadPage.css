@@ -2,11 +2,11 @@
     align-items: center; 
 }
 .header{
-    color: #51361A; 
+    /* color: #51361A;  */
     text-align: center; 
     /* background: #F0F8FF; */
     font-size: 30px; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 .logo{
     padding-top: 10px; 
@@ -20,19 +20,19 @@
 }
 .title{
     padding: 10px; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .question{
     padding: 10px; 
-    font-family: 'Montserrat', sans-serif;
-    color: #51361A; 
+    font-family: 'Muli', sans-serif;
+    /* color: #51361A;  */
     font-size: 25px; 
 }
 
 .drop{
     /* border: 2px solid #51361A;  */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 20px; 
 }
 .toggle{

@@ -1,0 +1,31 @@
+.App{
+    align-items: center; 
+}
+.header{
+    color: #51361A; 
+    text-align: center; 
+    /* background: #F0F8FF; */
+    font-size: 30px; 
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pppic{
+    margin: 15px; 
+}
+
+.ppquestion{
+    padding: 10px; 
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(78, 75, 75); 
+    font-size: 25px; 
+}
+
+.profimg{
+    width: 50px; 
+    border-radius: 25px; 
+}
+

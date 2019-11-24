@@ -2,6 +2,7 @@ import React from 'react';
 import "tabler-react/dist/Tabler.css";
 import "./uploadPage.css"
 import { Dropdown, Form, Button } from "tabler-react";
+
 // import logo from './logo.svg';
 //Form, Button, Dropdown
 
@@ -13,6 +14,7 @@ const App: React.FC = () => {
               <link href="https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
                <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
                <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet"></link>
+               <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"></link>
           </header>
           <img src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" className="logo" alt='logo'/>
           <h1 className="title">UPLOAD</h1>
@@ -22,6 +24,10 @@ const App: React.FC = () => {
           <Button type='submit' value='Submit' />
           </Form> */}
       <div className="form">
+      <div className="question">Upload photo here: </div>
+      <Button pill color="azure" >
+              Upload Photo
+          </Button>
         <div className="question">Where was this photo taken? </div>
           <div className="drop">
           <Dropdown
@@ -65,9 +71,9 @@ const App: React.FC = () => {
           </Form.SwitchStack>
           </Form.Group>
           </div>
-          <div className="question">Upload photo here: </div>
+          {/* <div className="question">Upload photo here: </div> */}
           <Button pill color="secondary">
-              Upload Photo
+              Upload!
           </Button>
       </div>
     </div>
