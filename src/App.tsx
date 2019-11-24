@@ -11,8 +11,16 @@ const App: React.FC = () => {
           <img src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" className='logo' alt='logo'/>
           <h1 className='hashtags'>###</h1>      
           <div className='selection'> 
-            <Button pill color="azure" >✓ Night</Button>
-            <Button pill color="yellow" >✓ Royce</Button>
+            <Button.List>
+              <Button pill color="azure" className="nightButton" >✓ Night</Button>
+              <Button pill color="yellow" >✓ Royce</Button>
+              <Button pill color="yellow" >✓ Day</Button>
+              <Button pill color="azure" >✓ Janss Steps</Button>
+              <Button pill color="azure" >✓ Winter</Button>
+              <Button pill color="azure" >✓ Fall</Button>
+              <Button pill color="azure" >✓ Spring</Button>
+              <Button pill color="yellow" >✓ Sunset</Button>
+            </Button.List>
           </div>
         </div>
         <div>
