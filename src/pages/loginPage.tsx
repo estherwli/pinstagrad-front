@@ -1,11 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import "tabler-react/dist/Tabler.css"
+import {Form, Card, Button } from "tabler-react"
+
+import "./loginPage.css"
+
+import pinstagradLogo from "../assets/PinstagradLogo.jpeg"
+
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      
-          Login
+
+    <div className="loginPage">
+
+        {/*  link correct font */ }
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"></link>
+
+
+        <div className="form">
+          <a href="/"> <img src={pinstagradLogo} alt="Pinstagrad Logo" height="142px" width="142px"/></a>
+        </div>
+        <div>
+          <h1>Sign in</h1>
+        </div>
+
+        <div className="form">
+          <Form onSubmit={(event) => console.log(event.target.name + 'clicked')}>
+            <Form.Input className="loginTextBox" name='username' label='Username' placeholder='Enter Username' />
+            <Form.Input className="loginTextBox" name='password' label='Password' type="password" placeholder='Enter Password' />
+            <Button className='button' color="dark gray">Submit</Button>
+          </Form>
+        </div>
 
     </div>
   );
