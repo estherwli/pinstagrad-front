@@ -7,14 +7,40 @@
     /* background: #F0F8FF; */
     font-size: 30px; 
     font-family: 'Muli', sans-serif;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: grey; 
 }
+.up{
+    /* display: flex;
+    flex-direction: row; */
+}
+.sidebar{
+    flex-direction: row; 
+}
+.heart {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .dropdown {
+    margin-left: 10px;
+    margin-right: 63px; 
+    margin-top: 5px;
+  }
 .logo{
     padding-top: 10px; 
-    flex-direction: row; 
+    flex-direction: row;
+    display: flex;
     /* background-image: url("https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true");  */
 }
 .form{
-    
+    margin-left: auto; 
+    margin-right: auto; 
     /* background-color: rgb(167, 207, 241);  */
     
 }
@@ -24,6 +50,7 @@
 }
 
 .question{
+    margin: 5px; 
     padding: 10px; 
     font-family: 'Muli', sans-serif;
     /* color: #51361A;  */
@@ -39,6 +66,7 @@
     /* align-items: center;  */
     margin-left: auto; 
     margin-right: auto;
+    color: black; 
 }
 
 .butt{
