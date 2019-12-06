@@ -75,6 +75,7 @@ const App: React.FC = () => {
 
          <img src="https://media.gq.com/photos/5a74702054cb6a6e81fe34df/master/w_775%2Cc_limit/rich-brian-web-alex-reside13.jpg" className="profilePic" alt='profilePic'/>
 
+
         <h1><em>Username Here</em></h1>
 
         <div className="buttonDiv">
@@ -92,7 +93,6 @@ const App: React.FC = () => {
 
     </div>
   );
-
 
 }
 

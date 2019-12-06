@@ -9,9 +9,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    font-family: Muli; 
-    
-
 }
 
 .container {
@@ -20,10 +17,8 @@ html,body
     padding: 0;
     width: 100%
 }
-
 .title {
     color: #4E9CD5;
-    font-family: Muli; 
 }
 
 .titleText {
@@ -44,7 +39,8 @@ html,body
 }
 
 .profilePic {
-    height: 200px;
+
+    height: 20rem;
     border-radius: 50%;
 }
 
@@ -64,4 +60,5 @@ html,body
 .linkDiv {
     padding-top: 50px;
 }
+
 
