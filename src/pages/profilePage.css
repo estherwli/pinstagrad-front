@@ -39,26 +39,30 @@ html,body
 }
 
 .profilePic {
-
     height: 20rem;
     border-radius: 50%;
 }
 
+.nameDiv {
+    padding-top:2rem;
+}
+
 .buttonDiv {
-    padding-top:30px;
+    padding-top:1rem;
 }
 
 .uploadButton {
-    background: linear-gradient(180deg, #F3D155 0%, #FFEE96 100%);
+    background: #FFEDAD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 25rem;
-    height: 7rem;
+    border-radius: 15px;
+    width: 20rem;
+    height: 5rem;
     font-size: 20px;
     line-height: 38px;
 }
 
 .linkDiv {
-    padding-top: 50px;
+    padding-top: 10rem;
 }
 
 
