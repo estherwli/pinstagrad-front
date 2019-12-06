@@ -1,13 +1,13 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
-import "./uploadPage.css"
+import "./upload.css"
 import { Dropdown, Form, Button } from "tabler-react";
 
 // import logo from './logo.svg';
 //Form, Button, Dropdown
 
 
-const App: React.FC = () => {
+const Upload: React.FC = () => {
   return (
     <div className="App">
       <link href="https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
@@ -119,4 +119,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default Upload;

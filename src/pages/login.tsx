@@ -1,25 +1,16 @@
 import React from 'react';
-
 import "tabler-react/dist/Tabler.css"
-import {Form, Card, Button } from "tabler-react"
+import {Form, Button } from "tabler-react"
 
-import "./loginPage.css"
+import "./login.css"
 
-import pinstagradLogo from "../assets/PinstagradLogo.jpeg"
-
-
-const App: React.FC = () => {
+const Login: React.FC = () => {
   return (
 
     <div className="loginPage">
 
         {/*  link correct font */ }
         <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"></link>
-
-
-        <div className="form">
-          <a href="/"> <img src={pinstagradLogo} alt="Pinstagrad Logo" height="142px" width="142px"/></a>
-        </div>
         <div>
           <h1>Sign in</h1>
         </div>
@@ -36,4 +27,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default Login;

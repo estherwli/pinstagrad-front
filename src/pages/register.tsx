@@ -1,11 +1,11 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
-import "./registerPage.css";
+import "./register.css";
 import { Form, Card, Button } from "tabler-react";
 import pinstagradLogo from "../assets/PinstagradLogo.jpeg"
 
 
-class myForm extends React.Component {
+class Register extends React.Component {
     render() {
         return (
             
@@ -34,4 +34,4 @@ class myForm extends React.Component {
 
   
 
-export default myForm;
+export default Register;

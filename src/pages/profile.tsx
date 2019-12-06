@@ -1,10 +1,10 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
-import "./profilePage.css"
+import "./profile.css"
 import { Avatar, Button, Dropdown } from "tabler-react";
  
 
-const App: React.FC = () => {
+const Profile: React.FC = () => {
   return (
     <div className="App">
             <header>
@@ -96,4 +96,4 @@ const App: React.FC = () => {
 
 }
 
-export default App;
+export default Profile;
