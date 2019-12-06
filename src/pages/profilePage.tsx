@@ -73,7 +73,9 @@ const App: React.FC = () => {
 
       <div className="centredContent">
 
-         <img src="https://media.gq.com/photos/5a74702054cb6a6e81fe34df/master/w_775%2Cc_limit/rich-brian-web-alex-reside13.jpg" className="profilePic" alt='profilePic'/>
+        {/* <div className="profiePic"></div> */}
+
+         <img src="https://i1.sndcdn.com/avatars-000662870861-y6319q-t500x500.jpg" className="profilePic" alt='profilePic'/>
 
         <h1><em>Username Here</em></h1>
 
