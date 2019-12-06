@@ -1,23 +1,45 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
 import "./profile.css"
-import { Avatar, Button, Dropdown } from "tabler-react";
+import { Avatar, Button, Dropdown, Icon } from "tabler-react";
  
 
 const Profile: React.FC = () => {
   return (
     <div className="App">
-            <header>
-        {/* <link href="https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet"></link> */}
-        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"></link>
 
+      <header>
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </header>
 
+    <div className="big">
 
 
-      <div className="container">
+      <div className="navBar">
+
+        <div className="leftContent">
+
+          <div>
+            <img src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" className="logo" alt='logo'/>
+          </div>
+
+          <div className="title">
+            <h1 className="titleText">PROFILE</h1>
+          </div>
+        </div>
+
+        <div className="rightContent">
+          <Icon className="icon" prefix="fa" name="heart"/> 
+          <Icon className="icon" prefix="fa" name="filter"/> 
+          <Icon className="icon" prefix="fa" name="list-alt"/> 
+        </div>
+
+      </div>
+
+
+
+      {/* <div className="container">
 
         <div>
           <img src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" className="logo" alt='logo'/>
@@ -66,7 +88,7 @@ const Profile: React.FC = () => {
           </Button.List>
         </div>
 
-      </div>
+      </div> */}
 
 
 
@@ -91,6 +113,8 @@ const Profile: React.FC = () => {
           <input type="image" src="https://github.com/chelseyywang/pinstagrad/blob/master/arrow%201.png?raw=true" />
         </div>
 
+
+      </div>
 
       </div>
 
