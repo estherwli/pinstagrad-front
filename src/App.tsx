@@ -1,5 +1,5 @@
 import React from 'react';
-import Feed from 'pages/feed';
+import Feed from './pages/feed';
 
 class App extends React.Component {
   render() {
