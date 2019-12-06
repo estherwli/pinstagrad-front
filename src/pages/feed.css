@@ -21,3 +21,28 @@
     border-radius: 10px;
     margin-bottom: 32px;
 }
+
+
+
+.big {
+    width:100%
+}
+
+.navBar {
+    height: 10rem;
+    display:flex;
+}
+
+.leftContent {
+    display:flex;
+}
+
+.rightContent {
+    margin-left:auto;
+    margin-right:20px;
+}
+
+.icon {
+    background:azure;
+    margin:20px;
+}
