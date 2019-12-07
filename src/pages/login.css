@@ -1,10 +1,13 @@
 /* must use only custom class names (not general like <p> tags) otherwise will affect other pages */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-.loginPage
-{
-    height: 800px;
-    background-color: white;
+.sign-in-title {
+    margin-top: 50px;
+    font-family: Muli;
+    font-size: 50px;
+    color: #6AAAD8;
 }
+
 .form {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,10 +19,20 @@
     justify-content: center;
     align-items: center;
 }
+
 .loginTextBox
 {
     background: #C0D8EA;
     font-family: Muli;
+    font-size: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 47px;            /* rounded border */
+}
+
+.login-button {
+    margin-top: 20px;
+    background-color: #6AAAD8;
+    border-radius: 47px;
+    border-color: transparent;
+    width: 100px;
 }

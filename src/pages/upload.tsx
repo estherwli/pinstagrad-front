@@ -1,11 +1,13 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
 import "./upload.css"
+import Navbar from '../component/navbar'
 import { Dropdown, Form, Button } from "tabler-react";
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Navbar title="upload" />
       <div className='top-bar'>
         <img className="logo" src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" alt='logo'/>
         <h1 className='title'><strong>upload</strong></h1>

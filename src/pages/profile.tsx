@@ -1,12 +1,14 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
 import "./profile.css"
+import Navbar from '../component/navbar'
 import { Avatar, Button, Dropdown, Icon } from "tabler-react";
  
 
 const Profile: React.FC = () => {
   return (
     <div className="App">
+      <Navbar title="profile" />
       <div className="centredContent">
          <img src="https://i1.sndcdn.com/avatars-000662870861-y6319q-t500x500.jpg" className="profilePic" alt='profilePic'/>
           <div className="nameDiv">
