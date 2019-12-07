@@ -1,20 +1,11 @@
 import React from 'react';
 import "tabler-react/dist/Tabler.css";
-import "./uploadPage.css"
+import "./upload.css"
 import { Dropdown, Form, Button } from "tabler-react";
-
-// import logo from './logo.svg';
-//Form, Button, Dropdown
-
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
-      <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet"></link>
-      <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet"></link>
-      <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"></link>
-
       <div className='top-bar'>
         <img className="logo" src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" alt='logo'/>
         <h1 className='title'><strong>upload</strong></h1>
