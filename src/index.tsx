@@ -1,24 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Switch } from "react-router-dom";
-import { Route } from "react-router";
-import loginPage from "./pages/login";
-import profilePage from "./pages/profile";
-import registerPage from "./pages/register";
-import uploadPage from "./pages/upload";
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-ReactDOM.render(
-<Router>
-    <Switch>
-        <Route exact path="/" component={App}></Route>
-        <Route exact path="/login" component={loginPage}></Route>
-        <Route exact path="/profile" component={profilePage}></Route>
-        <Route exact path="/register" component={registerPage}></Route>
-        <Route exact path="/upload" component={uploadPage}></Route>
-    </Switch>
-</Router>, document.getElementById('root'));
+import App from './App';
+import Login from "./pages/login";
+import Profile from "./pages/profile";
+import Register from "./pages/register";
+import Upload from "./pages/upload";
+
+const routing = (
+    <Router>
+        <Switch>
+            <Route exact path="/" component={App} />
+            <Route exact path="/login" component={ Login } />
+            <Route exact path="/profile" component={ Profile } />
+            <Route exact path="/register" component={ Register } />
+            <Route exact path="/upload" component={ Upload } />
+        </Switch>
+    </Router>
+)
+
+ReactDOM.render(routing, document.getElementById('root'));
 
 serviceWorker.unregister();

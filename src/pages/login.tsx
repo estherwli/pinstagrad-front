@@ -8,9 +8,6 @@ const Login: React.FC = () => {
   return (
 
     <div className="loginPage">
-
-        {/*  link correct font */ }
-        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"></link>
         <div>
           <h1>Sign in</h1>
         </div>

@@ -8,9 +8,7 @@ import pinstagradLogo from "../assets/PinstagradLogo.jpeg"
 class Register extends React.Component {
     render() {
         return (
-            
             <div className="registerPage">
-                <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'></link>
                 <div className="form">
                     <a href="/"> <img src={pinstagradLogo} alt="Pinstagrad Logo" height="142px" width="142px"/></a>
                 </div>
