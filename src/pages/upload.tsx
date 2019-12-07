@@ -4,7 +4,11 @@ import "tabler-react/dist/Tabler.css";
 import "./upload.css";
 =======
 import "./upload.css"
+<<<<<<< HEAD
 >>>>>>> Added navbar with routing functionality
+=======
+import Navbar from '../component/navbar'
+>>>>>>> Added images to feed and fixed formatting.
 import { Dropdown, Form, Button } from "tabler-react";
 import PhotoUp from "../assets/uploadphoto.svg";
 import styled from "styled-components";
@@ -188,6 +192,7 @@ export default class App extends React.Component<
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Navbar title="upload" />
       <div className='top-bar'>
         <img className="logo" src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" alt='logo'/>
         <h1 className='title'><strong>upload</strong></h1>

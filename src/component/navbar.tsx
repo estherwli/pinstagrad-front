@@ -46,6 +46,7 @@ class Navbar extends Component<NavbarProps, NavbarState> {
                     <img className='logo' src="https://github.com/chelseyywang/pinstagrad/blob/master/pinstagrad.png?raw=true" alt='logo'/>
                     <p className='navbar-title'>{this.props.title}</p>
                 </div>
+
                 <div className='right-navbar'>
                     <button className='navbar-icon' >
                         <FaHeart size='40' color='#6AAAD8'/>
@@ -65,7 +66,7 @@ class Navbar extends Component<NavbarProps, NavbarState> {
                                     <Link to="/profile"><button className="navbar-menu-choice">profile</button></Link>
                                     <Link to="/upload"><button className="navbar-menu-choice">upload</button></Link>
                                     <Link to="/register"><button className="navbar-menu-choice">register</button></Link>
-                                    <Link to="/logout"><button className="navbar-menu-choice">logout</button></Link>
+                                    <Link to="/login"><button className="navbar-menu-choice">logout</button></Link>
                                 </div>
                             </div>
                         )
